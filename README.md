@@ -3,7 +3,7 @@
 ## PT-BR
 
 - Este projeto tem como objetivo mostrar uma solução para o problema das rainhas.
-- Este problema consiste em ter um tabuleiro de X linhas e X colunas e deve ser posicionada uma rainha em cada coluna, mas as rainhas devem se posicionar de um jeito que não ameacem umas as outra.
+- Este problema consiste em ter um tabuleiro de X linhas e X colunas e deve ser posicionada uma rainha em cada coluna, mas as rainhas devem se posicionar de um jeito que não ameacem umas as outras.
 - Na class entities/Infos.java você encontrar a propriedade SIZE que define quantas linhas e colunas o tabuleiro vai ter.
 - O algoritimo principal usado foi o backtraking sobre uma arvore binária.
 
