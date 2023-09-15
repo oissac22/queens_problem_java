@@ -32,8 +32,6 @@ public class Tab {
                 Queen q = table[y][x];
                 if (q != null)
                     s.append(" " + table[y][x] + " ");
-                // else if (dangetPositionArea(x, y))
-                //     s.append(" X ");
                 else
                     s.append(" _ ");
             }
@@ -43,13 +41,7 @@ public class Tab {
     }
 
     public void addQueen(Queen q) {
-        for (int y = 0; y < size; y++) {
-            for (int x = 0; x < size; x++) {
-                if (table[y][x] == q) {
-                    table[y][x] = null;
-                }
-            }
-        }
+        removeQueen(q);
         table[q.getY()][q.getX()] = q;
         listQueens.add(q);
     }
